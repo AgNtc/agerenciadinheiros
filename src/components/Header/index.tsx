@@ -1,9 +1,7 @@
 import { Container, Content } from './styles';
 import logoImg from '../../assets/logo.svg';
+import { HeaderProps } from '../../utils/types';
 
-interface HeaderProps{
-    onHandleOpenModal: () => void;
-}
 export function Header({ onHandleOpenModal }:HeaderProps){
 
     return (

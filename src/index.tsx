@@ -13,22 +13,22 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: 'Freelance de website',
-          type: 'deposit',
-          category: 'dev',
+          title: "Freelance de website",
+          type: "deposit",
+          category: "dev",
           amount: 6000,
-          createServer: new Date('2021-02-12 09:00:00')
+          createdAt: new Date('2021-02-12 09:00:00')
         },
         {
           id: 2,
-          title: 'Aluguel',
-          type: 'withdraw',
-          category: 'dev',
+          title: "Aluguel",
+          type: "withdraw",
+          category: "dev",
           amount: 1100,
-          createServer: new Date('2021-02-12 13:00:00')
-        }
+          createdAt: new Date('2021-02-12 13:00:00')
+        },
       ],
-    })
+    });
   },
 
   routes(){
